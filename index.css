@@ -1,4 +1,33 @@
+@media(prefers-color-scheme:dark){
+    :root{
+        --theme-colour_background:black;
+        --theme-colour_text: white;
+        --theme-colour_secondary: grey;
+    }
+
+}
 :root{
+    --theme-colour_background: white;
+    --theme-colour_text: black;
+    --theme-colour_secondary: grey;
     
 }
 body{}
+
+
+#navbar{
+    display:flex;
+    flex-direction:row;
+
+    align-items: center;
+
+}
+.nav-items{
+    
+}
+.nav-items:hover{
+    background-color:var(--theme-colour_text);
+    color: var(--theme-color_background,pink);
+
+
+}
