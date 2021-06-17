@@ -12,22 +12,35 @@
         --theme-colour_secondary: grey;
     }
 
+
 }
 
-body{}
+body{
+    background-color: var(--theme-colour_background);
+}
 
 
 #navbar{
     display:flex;
     flex-direction:row;
+    background-color: var(--theme-colour_secondary);
+    justify-content:right;
 
-    align-items: center;
 
 }
-.nav-items{
+
+#nav-items{
+    color: var(--theme-colour_text);
+    margin-right: 20px;
     
 }
-.nav-items:hover{
+.nav-item{
+    float:right;
+    background-color: var(--theme-colour_secondary);
+    color: var(--theme-colour_text);
+
+}
+.nav-item:hover{
     background-color:var(--theme-colour_text);
     color: var(--theme-colour_background);
 
