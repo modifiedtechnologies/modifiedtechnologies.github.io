@@ -1,3 +1,10 @@
+
+:root{
+    --theme-colour_background: white;
+    --theme-colour_text: black;
+    --theme-colour_secondary: grey;
+    
+}
 @media(prefers-color-scheme:dark){
     :root{
         --theme-colour_background:black;
@@ -6,12 +13,7 @@
     }
 
 }
-:root{
-    --theme-colour_background: white;
-    --theme-colour_text: black;
-    --theme-colour_secondary: grey;
-    
-}
+
 body{}
 
 
@@ -27,7 +29,7 @@ body{}
 }
 .nav-items:hover{
     background-color:var(--theme-colour_text);
-    color: var(--theme-color_background,pink);
+    color: var(--theme-colour_background);
 
 
 }
