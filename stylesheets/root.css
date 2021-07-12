@@ -4,23 +4,51 @@
     font-family: 'Rajdhani', sans-serif;
     font-size: 16px;
 
+    /*light group*/
     --background:hsl(38, 38%, 84%);
     --primary-text: hsl(217, 10%, 34%);
+    --secondary-text: hsl(0, 0%, 100%);
+    
     --secondary-1:hsl(48, 21%, 71%);
     --secondary-2:hsl(6, 13%, 46%);
     --secondary-3:hsl(40, 9%, 56%);
-    --secondary-text: #FEFEFE;
 
     --paragraph-largest: 1.563rem;
     --paragraph-larger: 1.25rem;
     --paragraph-default:1rem;
+    /*
+        --paragraph-largest: 25px;  *
+        --paragraph-larger: 20px;   **
+        --paragraph-default: 16px;  *** 1rem
+
+        font-size:
+            h1: 48.83px;
+            h2:39.06px;
+            h3:31.25;
+            h4:25px;                *
+            h5:20px;                **
+            h6:16px;                *** 1rem
+    
+    */
 }
 body{
     background-color: var(--background);
 }
+/*paragraph group*/
 p{
     font-size: 16px;
 }
+.paragraph-largest{
+    font-size: var(--paragraph-largest);
+}
+.paragraph-larger{
+    font-size: var(--paragraph-larger);
+}
+.paragraph-default{
+    font-size: var(--paragraph-default);
+}
+
+/*header group*/
 h1{
     font-size:3.052rem;
 }
