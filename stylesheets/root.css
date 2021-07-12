@@ -30,6 +30,7 @@
             h6:16px;                *** 1rem
     
     */
+    --margin-base:185px;
 }
 body{
     background-color: var(--background);
