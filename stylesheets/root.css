@@ -1,9 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 :root{
+    font-family: 'Rajdhani', sans-serif;
     font-size: 16px;
+
     --background:hsl(38, 38%, 84%);
     --primary-text: hsl(217, 10%, 34%);
     --secondary-1:hsl(48, 21%, 71%);
     --secondary-2:hsl(6, 13%, 46%);
     --secondary-3:hsl(40, 9%, 56%);
     --secondary-text: #FEFEFE;
+
+    --paragraph-largest: 1.563rem;
+    --paragraph-larger: 1.25rem;
+    --paragraph-default:1rem;
+}
+body{
+    background-color: var(--background);
+}
+p{
+    font-size: 16px;
+}
+h1{
+    font-size:3.052rem;
+}
+h2{
+    font-size:2.441rem;
+}
+h3{
+    font-size:1.953rem;
+}
+h4{
+    font-size: 1.563rem;
+}
+h5{
+    font-size:1.25rem;
+}
+h6{
+    font-size:1rem;
 }
