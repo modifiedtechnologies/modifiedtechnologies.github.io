@@ -17,9 +17,9 @@
     --paragraph-larger: 1.25rem;
     --paragraph-default:1rem;
     /*
-        --paragraph-largest: 25px;  *
-        --paragraph-larger: 20px;   **
-        --paragraph-default: 16px;  *** 1rem
+        --paragraph-largest: 25px/1.563rem;     *
+        --paragraph-larger: 20px/1.25rem;       **
+        --paragraph-default: 16px/1rem;         *** 1rem
 
         font-size:
             h1: 48.83px;
