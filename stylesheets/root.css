@@ -21,6 +21,9 @@
         --paragraph-larger: 20px/1.25rem;       **
         --paragraph-default: 16px/1rem;         *** 1rem
 
+        
+        
+    background-color: hsl(0, 0%, 20%);
         font-size:
             h1: 48.83px;
             h2:39.06px;
