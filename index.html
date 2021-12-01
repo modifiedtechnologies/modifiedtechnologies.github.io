@@ -13,29 +13,22 @@
 
     <link rel="stylesheet" href="./stylesheets/navbar.css">
     <link rel="stylesheet" href="./stylesheets/footer.css">
-
+    
     <link rel="stylesheet" href="./stylesheets/pages/index.css">
+    <link rel="stylesheet" href="./stylesheets/overlay.css">
+
+    <script src="./Scripts/nav_overlay.js"></script>
+   
+
 </head>
 <body>
-    <header>
-        <div class="topnav" id="myTopnav">
-            <a href="#home" class="active">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <div class="dropdown">
-              <button class="dropbtn">Dropdown
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-              </div>
-            </div>
-            <a href="#about">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-          </div> 
-    </header>
-    
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <script src="./Scripts/navbar.js"></script>
+  </div>
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
 </body>
 </html>
