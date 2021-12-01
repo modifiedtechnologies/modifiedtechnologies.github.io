@@ -31,6 +31,7 @@ body {font-family: 'Lato', sans-serif;}
   }
 
 #overlaybtn {
+    color:var(--primary-text);
     padding: 8px;
     position: absolute;
     font-size:50px;
