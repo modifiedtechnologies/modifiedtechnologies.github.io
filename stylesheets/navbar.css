@@ -31,9 +31,7 @@
   margin-top: 30px;
 }
 
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
+
 
 #overlaybtn {
   color:var(--primary-text);
@@ -47,13 +45,16 @@
 }
 
 .Nav-Card{
-  margin-left:190px;
-  width:50ch;
+  padding-left:190px;
+  
 }
 
 /* this makes it so that when the nav-card parent is hovered the (line) seperator changes colour from default/opacity */
 .Nav-Card:hover .seperator{
   opacity:1;
+}
+.Nav-Card:hover a{
+  color:#f1f1f1;
 }
 
 .Description{
@@ -66,13 +67,26 @@
   opacity: 0;
   border-radius: 10px;
   height:6px;
-  width:50ch;
+  width:20ch;
 }
 .overlay .closebtn{
     position: absolute;
     top:20px;
     right:45px;
     font-size: 60px;
+}
+
+#myNav{
+  background-color:var(--secondary-1);
+}
+.nav{
+  display:flex;
+  flex-direction:row;
+
+  margin-left:var(--margin-base);
+}
+#logo{
+  
 }
   
 @media screen and (max-height: 450px) {
