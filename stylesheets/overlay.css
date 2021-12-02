@@ -21,7 +21,7 @@ body {font-family: 'Lato', sans-serif;}
   }
   
   .overlay a {
-    padding: 8px;
+    padding: 0.5rem;
     text-decoration: none;
     font-size: 36px;
     color: #818181;
@@ -31,7 +31,7 @@ body {font-family: 'Lato', sans-serif;}
 
 #overlaybtn {
     color:var(--primary-text);
-    padding: 8px;
+    padding: 0.5rem;
     position: absolute;
     font-size:50px;
     top:20px;
