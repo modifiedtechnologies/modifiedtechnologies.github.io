@@ -9,9 +9,11 @@
     --primary-text: hsl(217, 10%, 34%);
     --secondary-text: hsl(0, 0%, 100%);
     
-    --secondary-1:hsl(48, 21%, 71%);
+    --secondary-1:hsl(46, 21%, 71%);
     --secondary-2:hsl(6, 13%, 46%);
     --secondary-3:hsl(40, 9%, 56%);
+    /* --secondary-1:hsl(46, 21%, 71%);
+    --secondary-1:hsl(44, 9%, 68%);*/
 
     --paragraph-largest: 1.563rem;
     --paragraph-larger: 1.25rem;
