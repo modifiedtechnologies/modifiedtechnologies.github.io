@@ -34,7 +34,7 @@ nav{
   font-size: 36px;
 
   display: block;
-  padding: 0.5rem;
+  
   
   transition: 0.3s;
 }
@@ -59,7 +59,6 @@ nav{
   padding-left:190px;
   
 }
-
 /* this makes it so that when the nav-card parent is hovered the (line) seperator changes colour from default/opacity */
 .Nav-Card:hover .seperator{
   opacity:1;
@@ -67,12 +66,10 @@ nav{
 .Nav-Card:hover a{
   color:#f1f1f1;
 }
-
 .Description{
   color:var(--primary-text);
   padding: 0.5rem;
 }
-
 .seperator{
   background-color:var(--primary-text);
   opacity: 0;
@@ -81,14 +78,48 @@ nav{
   width:20ch;
 }
 .overlay .closebtn{
-    position: absolute;
-    top:20px;
-    right:45px;
-    font-size: 60px;
+  position: absolute;
+  top:20px;
+  right:45px;
+  font-size: 60px;
+}
+.socials{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+
+  padding-top:2rem;
+  padding-left:9.5rem;
+
+}
+.social-icons{
+  padding:0.5rem;
+  width:100%
+}
+.icon{
+  width:4rem;
+  height:4rem;
+}
+/*hover selector to triger underline*/
+.social-icons:hover .social-seperator{
+  opacity:1;
+}
+.social-seperator{
+  background-color:var(--primary-text);
+  opacity: 0;
+  border-radius: 10px;
+  height:6px;
+  width:100%;
 }
 
+
+
 #myNav{
+  display:flex;
+  flex-direction:row;
+
   background-color:var(--secondary-1);
+
 }
 .nav{
   display:flex;
