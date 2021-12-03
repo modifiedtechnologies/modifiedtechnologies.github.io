@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./stylesheets/footer.css">
     
     <link rel="stylesheet" href="./stylesheets/pages/index.css">
-    <link rel="stylesheet" href="./stylesheets/navbar.css">
+    
 
     <!--loads in js for closeNav and openNav-->
     <script src="./Scripts/navbar/nav_overlay.js"></script>
@@ -26,14 +26,15 @@
   <nav>
     <!--overlay section. Is hidden until burger button is pressed-->
    <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()"><img src="./assets/images/Menu.svg" alt="" srcset=""></a> 
+      <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a> 
 
-    <!--script that loads in the options content-->
-    <script src="./Scripts/navbar/navbar-options.js"></script>
+      <!--script that loads in the options content-->
+      <script src="./Scripts/navbar/navbar-options.js"></script>
    </div>
 
    <!--hamburger button/ Default Navbar-->
-
+   <script src="./Scripts/navbar/navbar.js"></script>
+   
   </nav>
 
 </body>
