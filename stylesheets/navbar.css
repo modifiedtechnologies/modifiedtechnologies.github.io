@@ -2,3 +2,14 @@ nav{
   display:flex;
   flex-direction:row;
 }
+
+#navbar{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+  padding-left: 10rem;
+  padding-right:10rem;
+}
+
