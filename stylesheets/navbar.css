@@ -13,3 +13,99 @@ nav{
   padding-right:10rem;
 }
 
+.overlay {
+    height: 0%;
+    width: 100%;
+
+    z-index: 1;
+    background-color: var(--secondary1);
+    
+    overflow-y: hidden;
+    transition: 0.5s;
+
+    position: absolute;
+
+    font-size: 60px;
+}
+
+.overlay a {
+  color: var(--primary-text);
+  text-decoration: none;
+  font-size: 36px;
+
+  display: block;
+  padding: 0.5rem;
+  
+  transition: 0.3s;
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  margin-top: 30px;
+}
+#overlaybtn {
+  color:var(--primary-text);
+  font-size:50px;
+
+  padding: 0.5rem;
+
+  position: absolute;
+  top:20px;
+  right:45px;
+}
+
+.Nav-Card{
+  padding-left:190px;
+  
+}
+
+/* this makes it so that when the nav-card parent is hovered the (line) seperator changes colour from default/opacity */
+.Nav-Card:hover .seperator{
+  opacity:1;
+}
+.Nav-Card:hover a{
+  color:#f1f1f1;
+}
+
+.Description{
+  color:var(--primary-text);
+  padding: 0.5rem;
+}
+
+.seperator{
+  background-color:var(--primary-text);
+  opacity: 0;
+  border-radius: 10px;
+  height:6px;
+  width:20ch;
+}
+.overlay .closebtn{
+    position: absolute;
+    top:20px;
+    right:45px;
+    font-size: 60px;
+}
+
+#myNav{
+  background-color:var(--secondary-1);
+}
+.nav{
+  display:flex;
+  flex-direction:row;
+
+  margin-left:var(--margin-base);
+}
+#logo{
+  
+}
+  
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
