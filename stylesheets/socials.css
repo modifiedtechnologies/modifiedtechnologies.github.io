@@ -1,0 +1,28 @@
+.socials{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+  
+    padding-top:2rem;
+    padding-left:9.5rem;
+  
+  }
+  .social-icons{
+    padding:0.5rem;
+    width:100%
+  }
+  .icon{
+    width:4rem;
+    height:4rem;
+  }
+  /*hover selector to triger underline*/
+  .social-icons:hover .social-seperator{
+    opacity:1;
+  }
+  .social-seperator{
+    background-color:var(--primary-text);
+    opacity: 0;
+    border-radius: 10px;
+    height:6px;
+    width:100%;
+  }
