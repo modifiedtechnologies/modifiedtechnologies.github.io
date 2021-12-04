@@ -6,4 +6,4 @@ document.write(`
 
 </footer>
 
-`)
+`);

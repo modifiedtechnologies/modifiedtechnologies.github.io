@@ -32,4 +32,4 @@ document.write(`
         </div>
         <div class="seperator"></div>
     </div>
-</div>`)
+</div>`);
