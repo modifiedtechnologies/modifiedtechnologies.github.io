@@ -1,0 +1,17 @@
+
+
+.CenterTXT{
+    text-align: center;
+}
+
+.columnRev{
+    flex-direction: column-reverse;
+}
+
+.Frame-2col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:50px;
+
+}
