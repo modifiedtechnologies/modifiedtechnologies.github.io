@@ -1,22 +1,20 @@
 .socials{
     display:flex;
     flex-direction:row;
-    justify-content:flex-end;
-  
     padding-top:2rem;
     padding-left:9.5rem;
   
   }
-  .social-icons{
+  .Social-icons{
     padding:0.5rem;
-    width:100%
+
   }
   .icon{
     width:4rem;
     height:4rem;
   }
   /*hover selector to triger underline*/
-  .social-icons:hover .social-seperator{
+  .Social-icons:hover .social-seperator{
     opacity:1;
   }
   .social-seperator{
@@ -24,5 +22,16 @@
     opacity: 0;
     border-radius: 10px;
     height:6px;
-    width:100%;
+
   }
+
+.Seperator{
+    width: 100%;
+    height: 6px;
+
+    opacity: 0;
+    background-color: var(--secondary-2);
+}
+.socials:hover .Seperator{
+    opacity: 1;
+}
